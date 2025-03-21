@@ -1,0 +1,218 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto; /*center the page */
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  padding: 30px 80px 40px;
+  background: center / cover no-repeat #fff url(../images/background_header.svg); /* End of video 2*/
+  position: relative;
+  height: 800px; /*22:09 video*/
+  display: flex; /*To use margin-top: auto 23:08 breaks till direction*/
+  flex-direction: column; /*23:08 video*/
+}
+
+.header__title {
+  margin: 183px 0 0; /*20:40 of video*/
+  max-width: 729px; /*1:45 of video*/
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  color: #3f96f3;
+}
+
+.header__description {
+  margin: 28px 0 0;
+  max-width: 683px; /*1:53 of video*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  margin-top: auto; /*22:09 video parent has be display flex*/
+  display: flex;
+  justify-content: space-between; /*26:08 Video*/
+  align-items: flex-end; /*27:24 Video*/
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header__paragraph {
+  margin: 0; /*26:15 of video*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  left: -50px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.recipes {
+  color: #fff;
+  background-color: #0a2750; /*video #4 8:31*/
+  padding: 100px 80px 215px; /*video #4 10:16*/
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+}
+
+.recipes__subtitle {
+  margin: 0 0 80px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation {
+  /*video #5 1:37*/
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background: center / cover repeat #d9e7ff
+    url(../images/background_reservation.svg);
+  position: relative;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+  background-color: #d9e7ff;
+}
+
+.form {
+  max-width: 385px;
+  background-color: #d9e7ff;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px; /*9:21 video*/
+  margin: 8px 0 32px; /*10:34 video*/
+  border: 1px solid #838383; /*11:29 video*/
+  border-radius: 4px; /*13:32 video*/
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__button {
+  width: 100%;
+  border: none;
+  padding: 20px 0;
+  background-color: #1878dc; /*12:42 video*/
+  color: #fff; /*12:42 video*/
+  border-radius: 4px; /*12:55 video*/
+  margin-bottom: 32px /*14:29 video*/;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  box-shadow: inset 0 0 0 0 #1853dc;
+  transition: ease-out 0.3;
+}
+
+form__button:hover {
+  box-shadow: inset 100% 0 0 4px #1853dc;
+}
+
+.form__checkbox {
+  border-radius: 2px; /*17:00 video*/
+  width: 20px; /*18:00 video*/
+  height: 20px; /*18:00 video*/
+  background-color: #1878dc;
+}
+
+.form__label_type_checkbox {
+  display: flex; /*17:30 video*/
+  gap: 12px; /*19:30 video*/
+  justify-content: center; /*19:30 video*/
+  margin-bottom: 88px; /*19:30 video*/
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
