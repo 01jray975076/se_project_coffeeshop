@@ -11,12 +11,18 @@
 
 .menu__title {
   margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
   text-align: center;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .menu__cards {

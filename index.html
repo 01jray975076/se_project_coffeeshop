@@ -115,6 +115,7 @@
                   type="text"
                   class="form__input"
                   placeholder="Name Surname"
+                  required
                 /><!--13:47 do the for and ids-->
               </label>
               <label for="number_of_guest" class="form__label">
@@ -152,13 +153,14 @@
             <!--5:52 Create a button-->
             <button class="form__button">Book a table</button>
 
-            <label for="checkbox" class="form__label"> </label>
-            <input
-              id="checkbox"
-              type="checkbox"
-              class="form__checkbox"
-              required
-            />I agree with the terms of use
+            <label for="checkbox" class="form__label form__label_type_checkbox">
+              <input
+                id="checkbox"
+                type="checkbox"
+                class="form__checkbox"
+                required
+              />I agree with the terms of use
+            </label>
             <!--checkbox 11:40-->
           </form>
         </section>
@@ -265,7 +267,7 @@
       <footer id="contacts" class="footer">
         <div class="footer__content">
           <img
-            src="../se_project_coffeeshop-main/images/logo_coffeeshop_light.svg"
+            src="../images/logo_coffeeshop_dark.svg"
             alt="Triple Espresso Logo"
             class="footer__logo"
           />
@@ -273,9 +275,9 @@
             <h3 class="footer__column-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a href="#" class="footer__social-link"
+                <a href="#" class="footer__social-icon"
                   ><img
-                    src="../se_project_coffeeshop-main/images/facebook_white.svg"
+                    src="../images/facebook_white.svg"
                     alt="Facebook Icon"
                     class="footer__social-link"
                   />
@@ -285,7 +287,7 @@
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
                   <img
-                    src="../se_project_coffeeshop-main/images/instagram_white.svg"
+                    src="../images/instagram_white.svg"
                     alt="Instagram Icon"
                     class="footer__social-link"
                   />

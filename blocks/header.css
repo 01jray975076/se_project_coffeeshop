@@ -5,6 +5,8 @@
   height: 800px; /*22:09 video*/
   display: flex; /*To use margin-top: auto 23:08 breaks till direction*/
   flex-direction: column; /*23:08 video*/
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -38,6 +40,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -54,7 +57,4 @@
 .header__paragraph {
   margin: 0; /*26:15 of video*/
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 }

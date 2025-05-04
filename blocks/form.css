@@ -65,10 +65,4 @@
   display: flex; /*17:30 video*/
   gap: 12px; /*19:30 video*/
   justify-content: center; /*19:30 video*/
-  margin-bottom: 88px; /*19:30 video*/
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
