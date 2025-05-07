@@ -16,7 +16,7 @@
   line-height: 30px;
 }
 .card__list-item {
-  font-family: "Noto Sans", sans-serif;
+  "Noto Serif", "Times New Roman", serif;
   display: flex;
   gap: 10px;
 }
